@@ -165,11 +165,14 @@ html {
 
 .feature {
     max-width: 920px;
-    min-height: 300px;
+    min-height: 400px;
     margin: 0 auto;
     padding: 50px;
 }
 
+.col-40 > * {
+    padding: 10px;
+}
 
 /* DEBUG */
 
