@@ -1,0 +1,98 @@
+/* RESET RULES  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* LAYOUT */
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row-reverse {
+	flex-direction: row-reverse;
+}
+
+.col-100 {
+	width: 100%;
+}
+
+.col-80 {
+	width: 80%;
+}
+
+.col-40 {
+	width: 40%;
+}
+
+.col-60 {
+	width: 60%;
+}
+
+.col-33 {
+	width: calc(100% / 3);
+}
+
+.col-16 {
+	width: calc(100% / 6);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-sm {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+/* UTILITIES  */
+
+.order-first {
+	order: -999;
+}
+
+.bg-gray {
+	background-color: #efefef;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.items-center {
+	align-items: center;
+}
+
+
+/* HEADER  */
+
+.main-header {
+    padding: 20px 0;
+    background-color: azure;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20PX;
+    justify-content: space-between;
+    align-items: center;
+}
