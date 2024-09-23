@@ -192,7 +192,6 @@ p {
     background-repeat: no-repeat;
     padding: 30px;
     align-items: center;
-    flex-direction: column;
 }
 
 /* DEBUG */
