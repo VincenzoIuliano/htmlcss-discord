@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
     <link rel="stylesheet" href="./css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Creo l'header -->
-    <header class="main-header debug">
+    <header class="main-header">
          <!-- Creo la Navbar  -->
         <nav class="container navbar"> <!--Flex container -->
         <div class="row items-center justify-between">
                 <div>   
-                    <a href="#">Logo</a>
+                    <img class="discord-logo" src="/img/Discord-Logo.svg" alt="">
                 </div>
                 <!-- Creo la lista dei link menu -->
-            <ul class="menu">
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+            <ul class="menu white-font">
+                <li><a href="#">Scarica</a></li>
+                <li><a href="#">Perchè Discord</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Sicurezza</a></li>
+                <li><a href="#">Assistenza</a></li>
             </ul>
             <div>
-                <a class="login-cta" href="#">Login</a>
+                <a class="login-cta btn-pill bg-white" href="#">Accedi</a>
             </div>
         </div>    
         </nav>
@@ -34,11 +37,18 @@
          <!-- PRIMA SEZIONE -->
         <section class="hero debug">
             <div class="container-sm"></div>
-            <div class="row">
+             <div class="row">
                 <div class="col-100">Primo contenuto</div>
-            </div>
+             </div>
         </section>
-        
+        <!-- SECONDA SEZIONE -->
+        <section class="feature debug">
+            <div class="container-sm"></div>
+             <div class="row">
+                <div class="col-60">Secondo contenuto</div>
+                <div class="col-40">Secondo contenuto</div>
+             </div>
+        </section>
     </main>
 </body>
 </html>

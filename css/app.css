@@ -21,6 +21,10 @@ img {
 
 /* LAYOUT */
 
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -55,15 +59,28 @@ img {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 .container-sm {
 	max-width: 720px;
 	margin: 0 auto;
 }
 
+.btn-pill {
+    border-radius: 999px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.bg-white {
+    background-color: white;
+}
 /* UTILITIES  */
 
 .order-first {
@@ -82,12 +99,15 @@ img {
 	align-items: center;
 }
 
+.white-font {
+    color: white;
+}
 
 /* HEADER  */
 
 .main-header {
     padding: 20px 0;
-    background-color: aqua
+    background-color: #255EE9;
 }
 
 .navbar .menu {
@@ -97,18 +117,21 @@ img {
     align-items: center;
 }
 
-/* MAIN */
-
-.hero .col-100 {
-    max-width: 700px;
-    margin: 0 auto;
+.discord-logo {
+    max-width: 150px;
 }
 
 
+/* MAIN */
 
+.hero .col-100 {
+    max-width: 720px;
+    margin: 0 auto;
+}
 
-
-
+.hero .row {
+	justify-content: center;
+}
 
 /* DEBUG */
 
@@ -128,4 +151,21 @@ img {
     border: 2px dashed black;
     background-color: violet;
     min-height: 400px;
+}
+
+.debug.feature .row > * {
+    border: 2px dashed black;
+    min-height: 300px;
+}
+
+.debug.feature .col-40 { 
+    background-color: pink ;
+}
+
+.debug.feature .col-60 { 
+    background-color: cornflowerblue;
+}
+
+.debug.feature {
+    padding: 50px 0;
 }
