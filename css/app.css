@@ -133,6 +133,10 @@ html {
 	justify-content: center;
 }
 
+.hero {
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+}
 /* DEBUG */
 
 .debug .navbar .row > * {
