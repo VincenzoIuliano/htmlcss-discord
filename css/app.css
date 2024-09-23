@@ -123,6 +123,10 @@ html {
 .bg-azure {
     background-color: #F6F6F6;
 }
+
+.blue-font {
+    color: blue;
+}
 /* HEADER  */
 
 .main-header {
@@ -194,6 +198,7 @@ p {
     align-items: center;
 }
 
+
 /* DEBUG */
 
 .debug .navbar .row > * {
@@ -227,3 +232,11 @@ p {
     background-color: cornflowerblue;
 }
 
+.debug.main-footer {
+background-color: chartreuse;
+}
+
+.debug.main-footer .row > * {
+    border: 2px dashed black;
+    min-height: 300px;
+}
