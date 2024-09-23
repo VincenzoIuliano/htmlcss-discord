@@ -1,78 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
     <link rel="stylesheet" href="./css/app.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Creo l'header -->
     <header class="main-header">
-         <!-- Creo la Navbar  -->
+        <!-- Creo la Navbar  -->
         <nav class="container navbar"> <!--Flex container -->
-        <div class="row items-center justify-between">
-                <div>   
+            <div class="row items-center justify-between">
+                <div>
                     <img class="discord-logo" src="/img/Discord-Logo.svg" alt="">
                 </div>
                 <!-- Creo la lista dei link menu -->
-            <ul class="menu white-font">
-                <li><a href="#">Scarica</a></li>
-                <li><a href="#">Perchè Discord</a></li>
-                <li><a href="#">Nitro</a></li>
-                <li><a href="#">Sicurezza</a></li>
-                <li><a href="#">Assistenza</a></li>
-            </ul>
-            <div>
-                <a class="login-cta btn-pill bg-white" href="#">Accedi</a>
+                <ul class="menu white-font">
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+                <div>
+                    <a class="login-cta btn-pill bg-white" href="#">Accedi</a>
+                </div>
             </div>
-        </div>    
         </nav>
     </header>
     <main>
         <!-- CREO IL CONTENUTO PRINCIPALE DELLA PAGINA -->
-         <!-- PRIMA SEZIONE -->
+        <!-- PRIMA SEZIONE -->
         <section class="hero">
-            <div class="container-sm"></div>
-             <div class="row">
-                <div class="col-100">
-                    <h1 class="title white-font">Il tuo posto per parlare</h1>
-                    <p class="body-text white-font">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptates ex natus labore pariatur tempora facilis magni reprehenderit, eligendi accusamus vel nulla dolorum commodi nihil perspiciatis deserunt impedit dolore porro. Consequatur sed in eveniet impedit..<p> <br>
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-100">
+                        <h1 class="title white-font">Il tuo posto per parlare</h1>
+                        <p class="body-text white-font">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+                        voluptates ex natus labore pariatur tempora facilis magni reprehenderit, eligendi accusamus vel
+                        nulla dolorum commodi nihil perspiciatis deserunt impedit dolore porro. Consequatur sed in
+                        eveniet impedit..</p> 
                         <a class="btn-pill bg-white black-font" href="#">&#8595; Scarica per Mac</a>
                         <a class="btn-pill bg-black white-font" href="#">Apri Discord nel tuo browser</a>
+                    </div>
                 </div>
-             </div>
+            </div>                 
         </section>
         <!-- SECONDA SEZIONE -->
         <section class="feature">
-            <div class="container-sm"></div>
-             <div class="row">
-                <div class="col-60">
-                    <img src="./img/item1.svg" alt="Immagine di Discord">
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-60">
+                        <img src="./img/item1.svg" alt="Immagine di Discord">
+                    </div>
+                    <div class="col-40">
+                        <h1 class="title">Un luogo a invito con tutto il necessario per parlare</h1>
+                        <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o
+                            semplicemente parlare della tua giornata senza intasare una chat di gruppo. </p>
+                    </div>
                 </div>
-                <div class="col-40">
-                    <h1 class="title">Un luogo a invito con tutto il necessario per parlare</h1>
-                    <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo. </p>
-                </div>
-             </div>
+            </div>
         </section>
         <!-- TERZA SEZIONE -->
-         <section class="feature bg-azure">
-            <div class="container-sm"></div>
-             <div class="row">
-                <div class="col-40">
-                    <h1 class="title">Dove trovarsi è facile</h1>
-                    <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover chiamare. </p>
+        <section class="feature bg-azure">
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-40">
+                        <h1 class="title">Dove trovarsi è facile</h1>
+                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere
+                            che
+                            sei li e unirsi istantaneamente senza dover chiamare. </p>
+                    </div>
+                    <div class="col-60">
+                        <img src="./img/item2.svg" alt="Immagine di Discord">
+                    </div>
                 </div>
-                <div class="col-60">
-                    <img src="./img/item2.svg" alt="Immagine di Discord">
-                </div>
-              </div>
+            </div>
         </section>
-
+        <!-- QUARTA SEZIONE -->
+        <section class="feature">
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-60">
+                        <img src="./img/item3.svg" alt="Immagine di Discord">
+                    </div>
+                    <div class="col-40">
+                        <h1 class="title">Da pochi a un fandom</h1>
+                        <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai
+                            membri personalizzabile. Concedi ai membri poteri speciali </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- QUINTA SEZIONE -->
+        <section class="feature bg-azure">
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-100 row-reverse">
+                        <h1 class="title align-center">Tecnologia affidabile per tenersi in contatto</h1>
+                        <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo. </p>
+                    </div>
+                    <div class="col-100 row-reverse align-center">
+                        <img src="./img/item4-big.svg" alt="Immagine di Discord">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SESTA SEZIONE -->
+         <section>
+            <div class="container-sm">
+                <div class="row">
+                    <h2>Pronto ad iniziare una nuova avventura?</h2>
+                </div>
+            </div>
+         </section>
     </main>
 </body>
+
 </html>
