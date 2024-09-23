@@ -87,7 +87,7 @@ img {
 
 .main-header {
     padding: 20px 0;
-    background-color: azure;
+    background-color: aqua
 }
 
 .navbar .menu {
@@ -95,4 +95,37 @@ img {
     gap: 20PX;
     justify-content: space-between;
     align-items: center;
+}
+
+/* MAIN */
+
+.hero .col-100 {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .navbar .row > * {
+    background-color: green;
+    border: 2px dashed black;
+    padding: 8px;
+}
+
+.debug.hero {
+    background-color: blue;
+    color: white;
+    padding: 50px 0;
+}
+
+.debug.hero .row > * {
+    border: 2px dashed black;
+    background-color: violet;
+    min-height: 400px;
 }
